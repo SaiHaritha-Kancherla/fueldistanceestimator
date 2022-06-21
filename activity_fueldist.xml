@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fueldist"
+    android:orientation="vertical"
+
+
+
+        >
+
+    <Space
+        android:layout_height="30sp"
+         android:layout_width="match_parent"/>
+    <Button
+        android:id="@+id/butres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET ANALYTICS"
+        android:layout_gravity="center" />
+    <Space
+        android:layout_height="30sp"
+        android:layout_width="match_parent"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        app:srcCompat="@drawable/person" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/gibk"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text=" Fuel level measured (centimeters ) :"
+            android:textColor="#F44336"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/fuellevel"
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="FUEL(IN MilliLiters)"
+            android:textColor="#F44336"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/fuelinml"
+            android:text="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <Space
+        android:layout_height="30sp"
+        android:layout_width="match_parent"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text=" Estimated Distance (KiloMeters ) :"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+         />
+
+    <TextView
+        android:id="@+id/dist"
+        android:text="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+    </LinearLayout>
+    <Space
+        android:layout_height="30sp"
+        android:layout_width="match_parent"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/gibki"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text=" Message:"
+            android:textColor="#F44336"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/msg"
+            android:text="Message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
